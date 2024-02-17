@@ -1,0 +1,50 @@
+/* app/assets/stylesheets/edit_contact.css */
+
+/* Style the h1 heading */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form elements */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the back link */
+  .back-link {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+  }
+  
+  .back-link:hover {
+    background-color: #f2f2f2;
+  }
+  

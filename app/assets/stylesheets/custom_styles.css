@@ -1,0 +1,54 @@
+/* custom_styles.css */
+
+/* Set body background color and font styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the main content area */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style buttons */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
