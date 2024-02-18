@@ -60,11 +60,12 @@ table {
   }
   
   .contact{
-    color: black;
+    color: white;
     /* color: white; */
     display: flex;
     justify-content: center;
     font-size: 40px;
+    background-color: red;
   }
 
 

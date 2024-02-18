@@ -1,5 +1,5 @@
 <!-- app/views/contacts/index.html.erb -->
-<h1 class="contact">Contact Records</h1>
+<h1 class="contact">PhoneBook</h1>
 
 <table>
   <thead>
@@ -13,20 +13,27 @@
 
 
 <%= link_to 'New Contact +', new_contact_path, class: 'new-contact-link' %>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-person"><circle cx="12" cy="7" r="5"></circle><path d="M17 21v-2a4 4 0 0 0-4-4H11a4 4 0 0 0-4 4v2"></path></svg>
 
 
 
   <tbody>
     <% @contacts.each do |contact| %>
       <tr>
+        
+
         <td><%= contact.name %></td>
+      
+
         <td><%= contact.phone_number %></td>
+        
         <td><%= link_to 'Show', contact %></td>
         <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
         
         <td><%= button_to 'Delete', contact, method: :delete, data: { confirm: 'Are you sure?' }, class: 'delete-button' %></td>
 
       </tr>
+
     <% end %>
   </tbody>
 </table>
