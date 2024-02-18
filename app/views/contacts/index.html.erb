@@ -1,5 +1,5 @@
 <!-- app/views/contacts/index.html.erb -->
-<h1 class="contact">Database Contact Numbers</h1>
+<h1 class="contact">Contact Records</h1>
 
 <table>
   <thead>
@@ -23,7 +23,9 @@
         <td><%= contact.phone_number %></td>
         <td><%= link_to 'Show', contact %></td>
         <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-        <td><%= link_to 'Delete', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        
+        <td><%= button_to 'Delete', contact, method: :delete, data: { confirm: 'Are you sure?' }, class: 'delete-button' %></td>
+
       </tr>
     <% end %>
   </tbody>
